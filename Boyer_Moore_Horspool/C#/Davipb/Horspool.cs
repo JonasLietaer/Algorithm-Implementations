@@ -43,9 +43,9 @@ namespace Horspool
 						match = false;
 						index += BadMatchTable[haystack[index + needle.Length - 1]];
 						if (index >= haystack.Length)
-                        {
-                            break;
-                        }
+						{
+						    break;
+						}
 					}
 				}
 
